@@ -4,7 +4,7 @@ Shared CSS design system for all [saproot.org](https://saproot.org) properties.
 
 Used as a **Git submodule** in:
 - [`reading-class-site`](https://github.com/joel/reading-class-site) — Gatsby static site at `reading.saproot.org`
-- [`english-class-app`](https://github.com/joel/english-class-app) — Flask writing tool at `writing.saproot.org`
+- [`saproot-writing-feedback`](https://github.com/Calculagator/saproot-writing-feedback) — Flask writing tool at `writing.saproot.org`
 
 ---
 
