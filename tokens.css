@@ -57,3 +57,55 @@
     --max-width-content: 840px;
     --max-width-wide: 1200px;
 }
+
+/* ── Dark Mode ────────────────────────────── */
+
+/* System preference (auto) */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --color-primary: #818cf8;          /* Indigo-400 */
+        --color-primary-light: #a5b4fc;    /* Indigo-300 */
+        --color-primary-dark: #6366f1;     /* Indigo-500 */
+
+        --color-success: #34d399;
+        --color-success-bg: #064e3b;
+        --color-warning: #fbbf24;
+        --color-warning-bg: #451a03;
+        --color-error: #f87171;
+        --color-error-bg: #450a0a;
+
+        --color-bg: #0f172a;               /* Slate-900 */
+        --color-surface: #1e293b;          /* Slate-800 */
+        --color-text: #e2e8f0;             /* Slate-200 */
+        --color-text-secondary: #94a3b8;   /* Slate-400 */
+        --color-border: #334155;           /* Slate-700 */
+
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Manual dark override */
+:root[data-theme="dark"] {
+    --color-primary: #818cf8;
+    --color-primary-light: #a5b4fc;
+    --color-primary-dark: #6366f1;
+
+    --color-success: #34d399;
+    --color-success-bg: #064e3b;
+    --color-warning: #fbbf24;
+    --color-warning-bg: #451a03;
+    --color-error: #f87171;
+    --color-error-bg: #450a0a;
+
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-text: #e2e8f0;
+    --color-text-secondary: #94a3b8;
+    --color-border: #334155;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
