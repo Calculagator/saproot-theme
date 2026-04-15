@@ -29,6 +29,7 @@
     --color-text: #1e293b;
     --color-text-secondary: #64748b;
     --color-border: #e2e8f0;
+    --color-surface-hover: #f8fafc;    /* Slate-50 */
 
     /* ── Shadows ──────────────────────────── */
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -79,6 +80,7 @@
         --color-text: #e2e8f0;             /* Slate-200 */
         --color-text-secondary: #94a3b8;   /* Slate-400 */
         --color-border: #334155;           /* Slate-700 */
+        --color-surface-hover: #334155;    /* Slate-700 */
 
         --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
         --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
@@ -104,6 +106,7 @@
     --color-text: #e2e8f0;
     --color-text-secondary: #94a3b8;
     --color-border: #334155;
+    --color-surface-hover: #334155;
 
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
